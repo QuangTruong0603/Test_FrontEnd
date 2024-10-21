@@ -1,0 +1,67 @@
+.login-container {
+    display: flex;
+    justify-content: center;  
+    background-color: #e5eff8;
+    
+}
+.login-form {
+    width: 40%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    border-radius: 7px;
+}
+.mb-3{
+    width: 80%;
+    
+}
+.mb-3:nth-child(1) {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.form-control {
+    background-color: #dde2e6;
+    border-radius: 10px;
+}
+.login-btn {
+    background-color: #f8ed31;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.modal-header {
+    border: 0px;
+}
+.modal-footer {
+    border: 0px;
+}
+.close-btn {
+    width: 80px;
+    background: rgb(180, 176, 170);
+    border: 0px solid;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.confirm-btn {
+    background-color: #f8ed31;
+    width: 80px;
+    color: black;
+    border: 0px solid;
+    font-size: 14px;
+    font-weight: 500;
+    &:hover {
+        background-color: #e9e269;
+        width: 80px;
+        color: black;
+    }
+}
